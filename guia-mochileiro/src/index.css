@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gmnoprint{
+  display: none;
+}
+
+.navbar-cellphone {
+  width: 100%;
+  margin: 0;
+  padding: 5%;
+  z-index: 100;
+  position: fixed;
+  background: black;
+  box-shadow: 0px 0px 30px grey;
+  transition: 0.5s;
+}
+
+
+.barsPlataform{
+    float: left;
+    font-size: 27pt;
+    color: white;
+}
+
+.containerLogo{
+}
+
+.imgLogo{
+  width: 30%;
+}
+
+
+.imgLogoFooter{
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.fontStyleInfos{
+  font-size: 20pt;
+  color: black;
+  text-align: left;
+}
+
+.imgHeader{
+  width: 100%;
+  opacity: 0.5;
+}
+
+.background{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: -1;
+}
+
+.ContainerCard {
+  padding: 5%;
+}
+
+.Card{
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  transform: translateY(-60px);
+  margin-bottom: 10%;
+  padding: 10%;
+  transition: 0.5s;
+}
+
+.Card:hover{
+  background: #ff9818;
+}
+
+.App{
+  background: black;
+}
+
+.credits{
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10pt;
+  padding-bottom: 10%;
+}
+
+.logoContainer {
+  position: absolute;
+}
+
+.imgLogoPng {
+  width: 90%;
+}
+
+a{
+  color: black;
+}
+
+.InputText{
+  text-align: left;
+  font-size: 25pt;
+  letter-spacing: -1px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonPesquisar{
+    padding: 10%;
+    background: white;
+    border-radius: 20px;
+    /* padding-top: 5%; */
+    margin-top: 5%;
+}
+
+.Buscar{
+    font-size: 20pt;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 1px;
+}
+
+.IconSearch{
+  padding-right: 15px;
+}
+
+.ContainerLegenda{
+  position: absolute;
+    bottom: 0%;
+    left: 20px;
+    z-index: 99999999;
+    background: white;
+    width: 90%;
+    margin: auto;
+    padding: 0%;
+    box-shadow: 0px 0px 30px 0px rgba(191, 212, 217, 0.17), 0 6px 30px 0 rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.tableLegenda {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+}
+
+.FontStyleLegenda {
+  font-size: 20pt;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.containerIconLegenda{
+  padding-right: 50px;
+  width: 25%;
+}
+
+.containerIconLegenda img{
+  width: 100%;
+}
+
+.tableLegenda p{
+   margin-top: 0;
+  margin-bottom: 0rem;
+}
